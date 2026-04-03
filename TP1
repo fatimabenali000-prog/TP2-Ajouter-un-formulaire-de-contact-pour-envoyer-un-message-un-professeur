@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mon emploi du temps</title>
+</head>
+
+<body>
+
+    <table border="1">
+        <tr bgcolor="silver">
+            <th></th>
+            <th>9h A 10h30</th>
+            <th>10h30 A 12h</th>
+            <th>12h15 A 13h45</th>
+            <th>13h45 A 15h15</th>
+            <th>15h45 A 17h</th>
+            <th>17h A 18h30</th>
+        </tr>
+        <tr>
+            <td bgcolor="silver">lundi</td>
+            <td>
+                Programmation Python 2<br>
+                <a href="message_prof.html">Prof M. Laraqui</a><br>
+                Cours - Amphi A
+            </td>
+            <td>
+                Algorithmes et Programmation C 2<br>
+                <a href="message_prof.html">Prof H. Oudani</a><br>
+                Cours – Amphi A
+            </td>
+            <td></td>
+            <td>
+                Algorithmes et Programmation C 2<br>
+                <p style="color: rgb(253, 8, 8);">TP Grp 1 – Salle P2</p>
+                <a href="message_prof.html">Prof H. Oudani</a><br>
+
+            </td>
+            <td>
+                Programmation Python 2<br>
+                <p style="color: rgb(253, 8, 8);">TP Grp 3 – Salle P2</p>
+                <a href="message_prof.html">Prof A. Elouardi</a><br </td>
+            <td>
+                Programmation Python 2<br>
+                <p style="color: rgb(255, 4, 4);">TP Grp 2 – Salle P2</p>
+                <a href="message_prof.html">Prof A. Elouardi</a>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="silver">Mardi</td>
+            <td>
+                Programmation Python 2<br>
+                <p style="color: rgb(250, 7, 7);">TP Grp 1 – Salle P2</p>
+                <a href="message_prof.html">Prof A. Elouardi</a>
+            </td>
+            <td></td>
+            <td>
+                Digital Skills & Intelligence Artificielle<br>
+                Cours – Amphi A<br>
+                <a href="message_prof.html">Prof A. Elouardi</a>
+            </td>
+            <td>
+                Digital Skills & Intelligence Artificielle
+                cours- Amphi A<br>
+                <a href="message_prof.html">Prof A. Elouardi</a>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td bgcolor="silver">Mercredi</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                Algorithmes et Programmation C 2<br>
+                <p style="color: rgb(248, 8, 8);">Td/TP Grp 2 – Salle
+                    P2</p><br>
+                <a href="message_prof.html">Prof H. Oudani</a><br>
+            </td>
+            <td>
+                Algèbre 2<br>
+                TD – Amphi A<br>
+                <a href="message_prof.html">Prof I. Boutaayamo</a>
+            </td>
+            <td>
+                Analyse 2<br>
+                TD – Amphi A<br>
+                <a href="message_prof.html">Prof A. Hadri</a>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="silver">Jeudi</td>
+            <td>
+                Traitement du Signal<br>
+                Cours – Amphi A<br>
+                <a href="message_prof.html">Prof H. Azzahhafi</a><br>
+            </td>
+            <td>
+                Traitement du Signal<br>
+                TD - Amphi A<br>
+                <a href="message_prof.html">Prof H. Azzahhafi</a><br>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td bgcolor="silver">Vendredi</td>
+            <td>
+                Algèbre 2<br>
+                Cours – Amphi C<br>
+                <br>
+                <a href="message_prof.html">Prof H. Oudani</a><br>
+            </td>
+            <td>
+                Analyse 2<br>
+                Cours – Amphi C<br>
+                <a href="message_prof.html">Prof A. Hadri</a><br>
+            </td>
+            <td>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td bgcolor="silver">Samedi</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                Programmation Web 1<br>
+                <p style="color: rgb(248, 8, 8);">Td/TP G2 – Salle P2</p><br>
+                <a href="message_prof.html">Prof A.Hakim</a><br>
+            </td>
+            <td>
+                Programmation Web 1<br>
+                Cours – Salle P1<br>
+                <a href="message_prof.html">Prof K. Omari</a><br>
+            </td>
+            <td>
+                Programmation Web 1<br>
+                <p style="color: rgb(248, 8, 8);">Td/TP G1 – Salle P2</p><br>
+                <a href="message_prof.html">Prof K. Omari</a><br>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
