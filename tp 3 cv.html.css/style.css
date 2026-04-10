@@ -1,0 +1,94 @@
+/* 1. Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    /* Police de texte simple et lisible */
+    background-color: #f4f4f9;
+    /* Couleur de fond gris très clair */
+    color: #333333;
+    /* Couleur du texte gris foncé (plus doux que le noir) */
+    margin: 0;
+    padding: 20px;
+    /* Espace autour du CV */
+}
+
+/* 2. La "boîte" principale qui contient le CV */
+.container {
+    max-width: 800px;
+    /* Largeur maximale du CV */
+    margin: 0 auto;
+    /* Centre le CV au milieu de l'écran */
+    background-color: #ffffff;
+    /* Fond blanc pour faire ressortir le CV */
+    padding: 40px;
+    /* Espace à l'intérieur du cadre blanc */
+    border-radius: 10px;
+    /* Bords légèrement arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Petite ombre légère pour un effet 3D */
+}
+
+/* 3. L'en-tête (Informations + Photo) */
+.header {
+    display: flex;
+    /* Place les éléments côte à côte */
+    justify-content: space-between;
+    /* Espace au maximum le texte et la photo */
+    align-items: center;
+    /* Aligne le texte et la photo verticalement */
+    border-bottom: 2px solid #2c3e50;
+    /* Ligne de séparation sous l'en-tête */
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* 4. Le nom et les coordonnées */
+.info h1 {
+    color: #2c3e50;
+    /* Bleu très foncé/Gris */
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    text-transform: capitalize;
+    /* Met automatiquement des majuscules aux prénoms/noms */
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555555;
+}
+
+/* 5. La photo de profil */
+img.photo {
+    width: 150px;
+    /* Largeur de la photo */
+    height: 150px;
+    /* Hauteur de la photo */
+    border-radius: 50%;
+    /* Transforme la photo carrée en cercle parfait */
+    object-fit: cover;
+    /* Évite que l'image ne soit déformée */
+    border: 3px solid #2c3e50;
+    /* Petite bordure autour de la photo */
+}
+
+/* 6. Les titres des sections (Formation, Expérience, etc.) */
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dddddd;
+    /* Ligne discrète sous chaque titre */
+}
+
+/* 7. Les listes à puces */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    /* Espace entre chaque point de la liste */
+    font-size: 16px;
+}
